@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+ 
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Mi pagina web</title>
+	</head>
+	<body>
+		<link rel="STYLESHEET" type="text/css" href="../styles/fondo.css"></link>
+		<form name="formulario">
+			<!--Datos del formulario-->
+			<fieldset>
+				<legend class="titulo" align="center">Encuesta</legend>
+				Nombre <input type="text" name="nombre"> Apellidos <input type="text" name="apellidos">
+				<br><br>
+				<input type="radio" name="Sexo" value="Hombre">Hombre
+				<input type="radio" name="Sexo" value="Mujer">Mujer
+				<br><br>
+				<fieldset>
+					<legend>País</legend>
+						<select name="Pais">
+							<option>España</option>
+							<option>Portugal</option>
+							<option>Gibraltar</option>
+						</select>
+				</fieldset>
+				<br>
+				Email <input type="email">
+				<br><br>
+				<!--Envío formulario-->
+				<input type="submit" value="Enviar" align="center">
+				<input type="reset" value="Reestablecer">
+			</fieldset>
+		</form>	
+	</body>
+</html>

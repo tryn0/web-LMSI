@@ -1,0 +1,29 @@
+Estilo simple, algo informatico, nada de estilo comercial.
+
+Carpeta1 (Primera pagina web):
+Carpeta 1.1 (Inicio de sesion o registro):
+Registro:
+Que sea un formulario para ver quién visita la pagina web, que contenga:
+nombre y apellidos, usuario,  email, contraseña y pais (Lista dividida por continentes para diferenciarlos mejor)
+un input radio para verificar mayoria de edad (+18) y un checkbox para aceptar terminos y tal para un registro correcto
+Un link para iniciar sesion.
+
+Inicio de sesión:
+email y contraseña, ¿coincide? pues logueado con ese email/usuario, ¿No? pues error user/email o contraseña.
+
+Imagenes de fondo siempre de cosas de informatica de alta calidad siempre.
+
+Carpeta2 (Segunda página):
+Pagina con header y parte de abajo, con ayuda del libro que da javier en donde pide las cosas minimas.
+En el header estarán los links Inicio, contacto, descrpcion y otra con cosas del instituto y cosas asi fotos o algo.
+
+Carpeta3.1 (Pagina de contacto):
+Pagina con datos de contacto, da igual que poner.
+Carpeta3.2 (Pagina de descripcion):
+Pagina con la descripcion del fp 1º DAW que estoy haciendo.
+Carpeta3.3 (Donde hice mi fp [Esto mismo, pensarlo mas]):
+Info, foto, etc del insti y  del fp superior.
+
+En la parte de abajo en cada pagina poner la info del IES NO mia.
+
+Todo el estilo y tal de cada pagina hay que ponerlo usando CSS, osea HTML/CSS.
