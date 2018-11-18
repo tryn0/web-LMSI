@@ -6,13 +6,50 @@
 		<title>Mi pagina web</title>
 	</head>
 	<body>
-		<link rel="STYLESHEET" type="text/css" href="../styles/main.css"></link>
-		<form name="formulario">
+		<link rel="STYLESHEET" type="text/css" href="../styles/main-encuesta.css"></link>
+		<header>
+			<div id="header">
+				<ul class="nav">
+					<li><a href="inicio.html">Inicio</a></li>
+					<li><a href="descripcion.html">Descripción</a>
+						<ul>
+							<li><a href="descripcion.html">Mi descripción</a></li>
+							<li><a href="https://www.google.es/search?q=ies+poligono+sur&oq=ies+poligono+sur&ie=UTF-8">IES Polígono Sur</a></li>
+							<li><a href="https://iespoligonosur.org/">Web del IES Polígono Sur</a></li>
+							<li><a href="http://www.juntadeandalucia.es/educacion/portals/web/formacion-profesional-andaluza/fp-grado-superior/detalle-titulo?idTitulo=56">Datos del FP Superior y webs</a>
+							<ul><br><br>
+								<li><a href="https://aula.iespoligonosur.org/">
+								Aula Virtual IES Polígono Sur</a></li>
+								<li><a href="https://servidor.iespoligonosur.org/">Repositorio</a></li>
+							</ul>
+						</ul>
+					</li>
+					<li><a href="">Cosas varias</a>
+						<ul>
+							<li><a href="https://www.google.es/maps/place/Instituto+de+Educaci%C3%B3n+Secundaria+Pol%C3%ADgono+Sur/@37.3601604,-5.9644146,17z/data=!3m1!4b1!4m5!3m4!1s0xd126e6023f03547:0x9ed835fd35174f30!8m2!3d37.3601604!4d-5.9644146">Goodle Maps IES</a></li>
+							<li><a href="encuesta.html">Hacer la encuesta (beta)</a></li>
+							<li><a href="">Submenu3</a></li>
+							<li><a href="">Submenu4</a></li>
+						</ul>
+					</li>
+					<li><a href="contacto.html">Contacto</a></li>
+				</ul>
+			</div>
+		</header>
+		<br>
+		<div id="banner">
+			<div id="banner_descripcion">
+				Desarrollador web
+				<a href="Inicio.html" class="boton_banner">Ir a Inicio</a>
+			</div>
+		</div>
+		<br><br>
+		<form name="formulario" class="formlario">
 			<!--Datos del formulario-->
 			<br>
-			<fieldset>
+			<fieldset id="encuesta-formulario">
 				<br>
-				<legend align="center" id="color-encuesta">Encuesta</legend>
+				<legend id="color-encuesta">Encuesta</legend>
 				<div id="separacion-entre-cajas">
 				Nombre <input type="text" name="nombre" class="caja1">
 				<br>

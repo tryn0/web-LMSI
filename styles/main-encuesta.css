@@ -6,6 +6,7 @@ html
 body 
 {
 	font-family: New Times Roman, Helvetica, sans-serif;
+	color: white;
 }
 * 
 {
@@ -18,11 +19,53 @@ fieldset
 	/*width:300px;*/
 	padding-bottom: 10px;
 }
+#color-encuesta
+{
+	margin-left: 10px;
+	color: white;
+	display: table;
+}
+#encuesta-formulario
+{
+	text-align: center;
+	margin-right: 10px;
+}
+#encuesta-residencia
+{
+	text-align: center;
+	margin-right: 15px;
+	padding-bottom: 7px;
+	margin-left: 15px;
+}
+.formulario
+{
+	text-align: left;
+}
+.caja1
+{
+	margin-left: 12px;
+}
+#separacion-entre-cajas
+{
+	margin-left: 7px;
+}		
+.separacion-izq
+{
+	margin-left: 7px;
+}
+#enviar
+{
+	margin-left: 60px;
+}
+#reset
+{
+	margin-left: 20px;
+}
 #header 
 {
 	margin: auto;
-	width: 500px;
-	font-family: New Times New Roman, Helvetica, sans-serif;
+	width:500px;
+	font-family:New Times New Roman, Helvetica, sans-serif;
 }
 #banner
 {
@@ -58,7 +101,7 @@ fieldset
     right: 5px;
     bottom: 5px;
     background: url('images/red_background.png') repeat-x;
-    border: 1px solid red;
+    border: 1px solid white;
     border-radius: 5px;
     font-size: 1.2em;
     text-align: center;
@@ -113,12 +156,26 @@ ul, ol
 	right: -140px;
 	top: 0px;
 }
-footer
+.asterisco
 {
-	color: white;
+	position: relative;
+	display: inline-block;
+	margin-left: 7px;
+	margin-top: 7px;
 }
-#parrafo
+.asterisco .texto-asterisco
 {
-	color: white;
-	background-color: black;
+	visibility: hidden;
+	width: 200px;
+	background-color: white;
+	color: black;
+	border-radius: 6px;
+	text-align: center;
+	padding: 5px;
+	position: absolute;
+	z-index: 1;
+}
+.asterisco:hover .texto-asterisco
+{
+	visibility: visible;
 }

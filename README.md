@@ -7,7 +7,7 @@ Cosas que tiene que tener como mínimo la web:
 
 -HTML
 
-- [ ] Párrafos
+- [x] Párrafos
 - [ ] Bloques
 - [ ] Enlaces
 - [ ] Imágenes
