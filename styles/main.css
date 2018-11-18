@@ -229,3 +229,12 @@ table, td, tr
 	text-decoration: none;
 	color: white;
 }
+table
+{
+	border: 1px solid;
+	text-align: center;
+}
+td, tr
+{
+	text-align: center;
+}
