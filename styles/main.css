@@ -29,6 +29,7 @@ fieldset
 	margin-top: 50px;
 	height: 200px;
 	border-radius: 5px;
+	border: 1px solid white;
 	background: url("../images/banner2.png") no-repeat;
 	position: relative;
 	box-shadow: 0px 1px 4px white;
@@ -121,25 +122,25 @@ footer
 	position: fixed;
 	left: 0;
 	bottom: 0;
-	width: 50%;
+	width: 35%;
 	background-color: black;
 	text-align: center;
 	color: white;
-	margin-left: 25%;
+	margin-left: 32.5%;
     border: 1px solid white;
     border-radius: 25px;
     font-size: 1.2em;
     text-align: center;
     text-decoration: none;
-    height: 12%;
+    height: 13%;
 }
-#datos-footer 
+#datos-footer footer
 {
-	padding-bottom: 50%x;
+	margin-bottom: 50%;
 }
 #h2-footer
 {
-	font-size: 1.3em;
+	font-size: 1.2em;
 }
 #parrafo
 {
@@ -179,6 +180,7 @@ aside
     background-color: #1C1C1C;
     box-shadow: 0px 2px 5px #1c1a19;
     border-radius: 5px;
+    border: 1px solid white;
     padding: 10px;
     color: white;
     font-size: 0.9em;
@@ -207,4 +209,23 @@ table, td, tr
 {
 	color: black;
 	background-color: white;
+}
+#tabla1
+{
+	margin-left: 10%
+}
+.section-p
+{
+	background-color: white;
+	color: black;
+	display: table;
+}
+#p-blanco
+{
+	color: white;
+}
+.quitar-hipervinculo
+{
+	text-decoration: none;
+	color: white;
 }

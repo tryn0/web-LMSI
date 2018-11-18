@@ -9,15 +9,15 @@ Cosas que tiene que tener como mínimo la web:
 
 - [x] Párrafos
 - [x] Bloques
-- [ ] Enlaces
+- [x] Enlaces
 - [x] Imágenes
 - [x] Listas
 - [x] Tablas
 - [x] Encabezados
 - [x] Comentarios
-- [ ] Negrita
-- [ ] Subrayado
-- [ ] Cursiva
+- [x] Negrita
+- [x] Subrayado
+- [x] Cursiva
 - [x] Elementos de formularios (Como una encuesta desde el index.html o desde el menú desplegable)
 
 CSS:

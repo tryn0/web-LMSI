@@ -16,30 +16,31 @@ body
 fieldset
 {
 	margin-left: 5px;
-	/*width:300px;*/
 	padding-bottom: 10px;
 }
 #color-encuesta
 {
-	margin-left: 10px;
+	margin-left: 50%;
 	color: white;
 	display: table;
 }
 #encuesta-formulario
 {
 	text-align: center;
-	margin-right: 10px;
+	width: 20%;
+	margin-left: 40%;
 }
 #encuesta-residencia
 {
 	text-align: center;
-	margin-right: 15px;
-	padding-bottom: 7px;
-	margin-left: 15px;
+	margin-top: 5%;
+	margin-right: 25%;
+	padding-bottom: 5%;
+	margin-left: 25%;
 }
 .formulario
 {
-	text-align: left;
+	text-align: center;
 }
 .caja1
 {
@@ -72,6 +73,7 @@ fieldset
 	margin-top: 50px;
 	height: 200px;
 	border-radius: 5px;
+	border: 1px solid white;
 	background: url("../images/banner2.png") no-repeat;
 	position: relative;
 	box-shadow: 0px 1px 4px white;
@@ -160,7 +162,7 @@ ul, ol
 {
 	position: relative;
 	display: inline-block;
-	margin-left: 10px;
+	margin-left: 50%;
 	margin-top: 10px;
 	font-size: 1.8em;
 }
@@ -186,23 +188,23 @@ footer
 	position: fixed;
 	left: 0;
 	bottom: 0;
-	width: 50%;
+	width: 35%;
 	background-color: black;
 	text-align: center;
 	color: white;
-	margin-left: 25%;
+	margin-left: 32.5%;
     border: 1px solid white;
     border-radius: 25px;
     font-size: 1.2em;
     text-align: center;
     text-decoration: none;
-    height: 12%;
+    height: 13%;
 }
-#datos-footer 
+#datos-footer footer
 {
-	padding-bottom: 50%x;
+	margin-bottom: 50%;
 }
 #h2-footer
 {
-	font-size: 1.3em;
+	font-size: 1.2em;
 }
