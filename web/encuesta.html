@@ -6,31 +6,65 @@
 		<title>Mi pagina web</title>
 	</head>
 	<body>
-		<link rel="STYLESHEET" type="text/css" href="../styles/fondo.css"></link>
+		<link rel="STYLESHEET" type="text/css" href="../styles/main.css"></link>
 		<form name="formulario">
 			<!--Datos del formulario-->
+			<br>
 			<fieldset>
-				<legend class="titulo" align="center">Encuesta</legend>
-				Nombre <input type="text" name="nombre"> Apellidos <input type="text" name="apellidos">
+				<br>
+				<legend align="center" id="color-encuesta">Encuesta</legend>
+				<div id="separacion-entre-cajas">
+				Nombre <input type="text" name="nombre" class="caja1">
+				<br>
+				Apellidos <input type="text" name="apellidos" class="caja2"></div>
 				<br><br>
-				<input type="radio" name="Sexo" value="Hombre">Hombre
-				<input type="radio" name="Sexo" value="Mujer">Mujer
+				<input type="radio" name="Sexo" value="Hombre" class="separacion-izq">Hombre
+				<input type="radio" name="Sexo" value="Mujer" class="separacion-izq">Mujer
 				<br><br>
-				<fieldset>
-					<legend>País</legend>
+				<fieldset id="encuesta-residencia">
+					<legend>Residencia</legend>
 						<select name="Pais">
+							<option selected disabled hidden>País</option>
 							<option>España</option>
 							<option>Portugal</option>
 							<option>Gibraltar</option>
 						</select>
+						*<select name="Comunidad Autónoma de España">
+							<option selected disabled hidden>Comunidad A.</option>
+							<option value="Andalucía">Andalucía</option>
+							<option value="Aragón">Aragón</option>
+							<option value="Asturias">Asturias</option>
+							<option value="Islas Baleares">Islas Baleares</option>
+							<option value="País Vasco">País Vasco</option>
+							<option value="Canarias">Canarias</option>
+							<option value="Cantabria">Cantabria</option>
+							<option value="Castilla-La Mancha">Castilla-La Mancha</option>
+							<option value="Castilla y León">Castilla y León</option>
+							<option value="Cataluña">Cataluña</option>
+							<option value="Extremadura">Extremadura</option>
+							<option value="Galicia">Galicia</option>
+							<option value="Madrid">Madrid</option>
+							<option value="Murcia">Murcia</option>
+							<option value="Navarra">Navarra</option>
+							<option value="La Rioja">La Rioja</option>
+							<option value="Valencia">Valencia</option>
+							<option value="Ceuta">Ceuta</option>
+							<option value="Melilla">Melilla</option>
+						</select>
 				</fieldset>
 				<br>
-				Email <input type="email">
-				<br><br>
+				<div class="separacion-izq">
+				Email <input type="email"></div>
+				<br>
 				<!--Envío formulario-->
-				<input type="submit" value="Enviar" align="center">
-				<input type="reset" value="Reestablecer">
+				<input type="submit" value="Enviar" id="enviar">
+				<!--Resetar formulario-->
+				<input type="reset" value="Reestablecer" id="reset">
 			</fieldset>
-		</form>	
+		</form>
+		<!--Observación de la residencia-->
+		<div class="asterisco">*
+			<span class="texto-asterisco">Si seleccionas un país diferente a España, no selecciones comunidad autónoma.</span>
+		</div>
 	</body>
 </html>

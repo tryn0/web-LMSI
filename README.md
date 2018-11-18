@@ -22,12 +22,12 @@ Cosas que tiene que tener como mínimo la web:
 
 CSS:
 
-- [ ] Diferentes selectores
+- [x] Diferentes selectores
 - [x] Color de texto
 - [x] Fondo
 - [x] Márgenes
-- [ ] Posicionamiento
-- [ ] Alineación del texto
+- [x] Posicionamiento
+- [x] Alineación del texto
 - [x] Fuente del texto
 
 Valida todo el código mediante el validador de w3 visto en clase.

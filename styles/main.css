@@ -1,23 +1,104 @@
-html {
-	background: url("../images/fondo-pagina web.jpg");
+html 
+{
+	background: url("../images/universo-anillo.jpg");
 	background-size: 100%;
 }
-body {
-	font-family: New Times Roman Helvetica, sans-serif;
-	color: white;
+body 
+{
+	font-family: New Times Roman, Helvetica, sans-serif;
+	color: black;
 }
-* {
-		margin:0px;
-		padding:0px;
-	}
-			
+* 
+{
+	margin:0px;
+	padding:0px;
+}
+fieldset
+{
+	margin-left: 5px;
+	/*width:300px;*/
+	padding-bottom: 10px;
+}
+#color-encuesta
+{
+	color: white;
+	display: table;
+	background-color: black;
+}
+#encuesta-residencia
+{
+	text-align: center;
+	width: 250px;
+	padding-bottom: 7px;
+	margin-left: 10px;
+}
+.caja1
+{
+	margin-left: 8px;
+}
+#separacion-entre-cajas
+{
+	margin-left: 7px;
+}		
+.separacion-izq
+{
+	margin-left: 7px;
+}
+#enviar
+{
+	margin-left: 60px;
+}
+#reset
+{
+	margin-left: 20px;
+}
 #header 
 {
-	margin:auto;
+	margin: auto;
 	width:500px;
 	font-family:New Times New Roman, Helvetica, sans-serif;
 }
-			
+#banner
+{
+	margin-top: 50px;
+	height: 200px;
+	border-radius: 5px;
+	background: url("../images/banner.png");
+	position: relative;
+	box-shadow: 0px 4px 4px black;
+	margin-bottom: 25px;
+	z-index: 0;
+}
+#banner_descripcion
+{
+	position: absolute;
+	bottom: 0;
+	border-radius: 0px 0px 5px 5px;
+	width: 99.5%;
+	height: 33px;
+	padding-top: 15px;
+    padding-left: 4px;
+    background-color: black;
+    background-color: black;
+    color: white;
+    font-size: 0.8em;
+}
+.boton_banner
+{
+	display: inline-block;
+	height: 25px;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    background: url('images/red_background.png') repeat-x;
+    border: 1px solid red;
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 3px 8px 0px 8px;
+    color: white;
+    text-decoration: none;
+}
 ul, ol 	
 {
 	list-style:none;
@@ -30,37 +111,61 @@ ul, ol
 			
 .nav li a 	
 {
-	background-color:transparent;
-	color: black;
-	text-decoration:none;
+	background-color: black;
+	color: white;
+	text-decoration: none;
 	padding:10px 12px;
-	display:block;
+	display: block;
 }
 			
 .nav li a:hover 
 {
-	background-color:white;
+	background-color: #6EC3FA;
 }
 			
 .nav li ul 
 {
-	display:none;
-	position:absolute;
-	min-width:140px;
+	display: none;
+	position: absolute;
+	min-width: 140px;
 }
 			
 .nav li:hover > ul 
 {
-	display:block;
+	display: block;
+	z-index: 1;
 }
 			
 .nav li ul li 
 {
-	position:relative;
+	position: relative;
 }
 			
 .nav li ul li ul 
 {
-	right:-140px;
-	top:0px;
+	right: -140px;
+	top: 0px;
+}
+.asterisco
+{
+	position: relative;
+	display: inline-block;
+	margin-left: 7px;
+	margin-top: 7px;
+}
+.asterisco .texto-asterisco
+{
+	visibility: hidden;
+	width: 200px;
+	background-color: grey;
+	color: white;
+	border-radius: 6px;
+	text-align: center;
+	padding: 5px;
+	position: absolute;
+	z-index: 1;
+}
+.asterisco:hover .texto-asterisco
+{
+	visibility: visible;
 }
