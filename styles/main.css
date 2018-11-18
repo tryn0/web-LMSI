@@ -57,8 +57,7 @@ fieldset
     position: absolute;
     right: 5px;
     bottom: 5px;
-    background: url('images/red_background.png') repeat-x;
-    border: 1px solid red;
+    border: 1px solid white;
     border-radius: 5px;
     font-size: 1.2em;
     text-align: center;
@@ -113,11 +112,99 @@ ul, ol
 	right: -140px;
 	top: 0px;
 }
-footer
+section p
 {
 	color: white;
+}
+footer
+{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 50%;
+	background-color: black;
+	text-align: center;
+	color: white;
+	margin-left: 25%;
+    border: 1px solid white;
+    border-radius: 25px;
+    font-size: 1.2em;
+    text-align: center;
+    text-decoration: none;
+    height: 12%;
+}
+#datos-footer 
+{
+	padding-bottom: 50%x;
+}
+#h2-footer
+{
+	font-size: 1.3em;
 }
 #parrafo
 {
 	color: white;
+}
+h1
+{
+	color: white;
+	font-size: 1.7em;
+}
+article, aside
+{
+	display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+}
+article
+{
+	width: 84%;
+	margin-right: 20px;
+}
+.cat_icon
+{
+	vertical-align: middle;
+    margin-right: 8px;
+}
+article p
+{
+	font-size: 1.2em;
+	background-color: transparent;
+
+}
+aside
+{
+	position: absolute;
+    width: 256px;
+    background-color: #1C1C1C;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 0.9em;
+}
+#arrow
+{
+    position: absolute;
+    top: 100px;
+    left: -12px;
+}
+#imagen_autor
+{
+    text-align: center;
+}
+
+#imagen_autor img
+{
+    /*border: 1px solid black;*/
+}
+
+aside img
+{
+    margin-right: 5px;
+}
+table, td, tr
+{
+	color: black;
+	background-color: white;
 }

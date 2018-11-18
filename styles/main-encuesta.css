@@ -181,3 +181,28 @@ ul, ol
 {
 	visibility: visible;
 }
+footer
+{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 50%;
+	background-color: black;
+	text-align: center;
+	color: white;
+	margin-left: 25%;
+    border: 1px solid white;
+    border-radius: 25px;
+    font-size: 1.2em;
+    text-align: center;
+    text-decoration: none;
+    height: 12%;
+}
+#datos-footer 
+{
+	padding-bottom: 50%x;
+}
+#h2-footer
+{
+	font-size: 1.3em;
+}

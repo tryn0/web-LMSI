@@ -8,13 +8,13 @@ Cosas que tiene que tener como mínimo la web:
 -HTML
 
 - [x] Párrafos
-- [ ] Bloques
+- [x] Bloques
 - [ ] Enlaces
-- [ ] Imágenes
-- [ ] Listas
-- [ ] Tablas
-- [ ] Encabezados
-- [ ] Comentarios
+- [x] Imágenes
+- [x] Listas
+- [x] Tablas
+- [x] Encabezados
+- [x] Comentarios
 - [ ] Negrita
 - [ ] Subrayado
 - [ ] Cursiva
