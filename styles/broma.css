@@ -17,3 +17,7 @@ html
     60% { background-color: blue; }
     75% { background-color: white; }
 }
+#boton-atras
+{
+	margin-left: 47%;
+}

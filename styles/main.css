@@ -81,7 +81,7 @@ ul, ol
 	background-color: black;
 	color: white;
 	text-decoration: none;
-	padding:10px 12px;
+	padding:15px 12px;
 	display: block;
 }
 			
@@ -237,4 +237,62 @@ table
 td, tr
 {
 	text-align: center;
+}
+#form-contacto
+{
+	color: white;
+}
+#fieldset-contacto:hover
+{
+	width: 500px;
+	background-color: maroon;
+}
+#form2-contacto:focus
+{
+	background-color: red;
+}
+#form2-contacto:hover
+{
+	background-color: blue;
+}
+#form2-contacto
+{
+	background-color: grey;
+}
+#form2-contacto:active
+{
+	background-color: yellow;
+}
+#fieldset-contacto:hover > #date
+{
+	margin-top: 10px;
+}
+#fieldset-contacto:active
+{
+	background-color: black;
+}
+#form2-contacto1:focus
+{
+	background-color: red;
+}
+#form2-contacto1:hover
+{
+	background-color: blue;
+}
+#form2-contacto1
+{
+	background-color: grey;
+}
+#form2-contacto1:active
+{
+	background-color: yellow;
+}
+#pass
+{
+	margin-left: 25%;
+}
+#fieldset-contacto:hover > #botones-form
+{
+	margin-top: 1%;
+	margin-left: 35%;
 }
