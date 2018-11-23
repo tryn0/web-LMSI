@@ -30,6 +30,7 @@ CSS:
 - [x] Alineación del texto
 - [x] Fuente del texto
 
+##Comentario
 Se podría haber mejorado bastante más, pero es mi primera web y cuando se me ocurrían ideas tenía mucho código y era un lío rehacerlo. La próxima mejor.
 
 
