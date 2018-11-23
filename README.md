@@ -30,11 +30,7 @@ CSS:
 - [x] Alineación del texto
 - [x] Fuente del texto
 
-Valida todo el código mediante el validador de w3 visto en clase.
-Comprime el directorio y súbelo a la actividad en la plataforma.
-
-Además, en el siguiente enlace puedes consultar una estrategia para crear una web desde cero:
-https://openclassrooms.com/en/courses/3339201-aprende-a-crear-tu-propio-sitio-web-con-html5-y-css3/3349087-ejercicio-practico-creacion-de-una-pagina-web-paso-por-paso
+Se podría haber mejorado bastante más, pero es mi primera web y cuando se me ocurrían ideas tenía mucho código y era un lío rehacerlo. La próxima mejor.
 
 
 

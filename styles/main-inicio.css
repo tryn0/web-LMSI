@@ -6,7 +6,6 @@ html
 body 
 {
 	font-family: New Times Roman, Helvetica, sans-serif;
-	color: white;
 }
 * 
 {
@@ -16,57 +15,14 @@ body
 fieldset
 {
 	margin-left: 5px;
+	/*width:300px;*/
 	padding-bottom: 10px;
-}
-#color-encuesta
-{
-	margin-left: 50%;
-	color: white;
-	display: table;
-}
-#encuesta-formulario
-{
-	text-align: center;
-	width: 20%;
-	margin-left: 40%;
-}
-#encuesta-residencia
-{
-	text-align: center;
-	margin-top: 5%;
-	margin-right: 25%;
-	padding-bottom: 5%;
-	margin-left: 25%;
-}
-.formulario
-{
-	text-align: center;
-}
-.caja1
-{
-	margin-left: 12px;
-}
-#separacion-entre-cajas
-{
-	margin-left: 7px;
-}		
-.separacion-izq
-{
-	margin-left: 7px;
-}
-#enviar
-{
-	margin-left: 60px;
-}
-#reset
-{
-	margin-left: 20px;
 }
 #header 
 {
 	margin: auto;
-	width:500px;
-	font-family:New Times New Roman, Helvetica, sans-serif;
+	width: 500px;
+	font-family: New Times New Roman, Helvetica, sans-serif;
 }
 #banner
 {
@@ -90,7 +46,6 @@ fieldset
 	padding-top: 10px;
     padding-left: 20px;
     background-color: black;
-    background-color: black;
     color: white;
     font-size: 0.8em;
 
@@ -102,7 +57,6 @@ fieldset
     position: absolute;
     right: 5px;
     bottom: 5px;
-    background: url('images/red_background.png') repeat-x;
     border: 1px solid white;
     border-radius: 5px;
     font-size: 1.2em;
@@ -115,7 +69,16 @@ ul, ol
 {
 	list-style:none;
 }
-			
+#header
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1;
+	padding-left: 40%;
+	background-color: black;
+}		
 .nav > li 	
 {
 	float:left;
@@ -126,7 +89,7 @@ ul, ol
 	background-color: black;
 	color: white;
 	text-decoration: none;
-	padding:10px 12px;
+	padding: 15px 12px;
 	display: block;
 }
 			
@@ -144,7 +107,7 @@ ul, ol
 			
 .nav li:hover > ul 
 {
-	display: block;
+	display: inline-block;
 	z-index: 1;
 }
 			
@@ -158,30 +121,9 @@ ul, ol
 	right: -140px;
 	top: 0px;
 }
-.asterisco
+section p
 {
-	position: relative;
-	display: inline-block;
-	margin-left: 50%;
-	margin-top: 10px;
-	font-size: 1.8em;
-}
-.asterisco .texto-asterisco
-{
-	visibility: hidden;
-	width: 200px;
-	background-color: white;
-	color: black;
-	border-radius: 6px;
-	text-align: center;
-	padding: 5px;
-	position: absolute;
-	z-index: 1;
-	font-size: 0.5em;
-}
-.asterisco:hover .texto-asterisco
-{
-	visibility: visible;
+	color: white;
 }
 footer
 {
@@ -226,4 +168,103 @@ footer:hover
 #h2-footer
 {
 	font-size: 1.2em;
+}
+#parrafo
+{
+	color: white;
+	margin-right: 30%;
+}
+h1
+{
+	color: white;
+	font-size: 1.7em;
+}
+article, aside
+{
+	display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+}
+article
+{
+	width: 84%;
+	margin-right: 20px;
+}
+.cat_icon
+{
+	vertical-align: middle;
+    margin-right: 8px;
+}
+article p
+{
+	font-size: 1.2em;
+	background-color: transparent;
+
+}
+aside
+{
+	position: inherit;
+    width: 256px;
+    background-color: #1C1C1C;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 10px;
+    color: white;
+    font-size: 0.9em;
+}
+#arrow
+{
+    position: absolute;
+    top: 100px;
+    left: -12px;
+}
+#imagen_autor
+{
+    text-align: center;
+}
+
+#imagen_autor img
+{
+    /*border: 1px solid black;*/
+}
+
+aside img
+{
+    margin-right: 5px;
+}
+#tabla1
+{
+	margin-left: 10%
+}
+.section-p
+{
+	background-color: white;
+	color: black;
+	display: table;
+}
+#p-blanco
+{
+	color: white;
+}
+#tabla-inicio p
+{
+	color: white;
+	background-color: transparent;
+}
+table, tr, td
+{
+	background-color: transparent;
+	border-width: 0px;
+}
+#p1
+{
+	padding-left: 5%;
+	padding-right: 5%;
+}
+#p2
+{
+	padding-right: 5%;
+	padding-left: 5%;
+	text-align: right;
 }
